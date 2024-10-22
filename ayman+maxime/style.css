@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "mont";
+    src: url("POLICE/Mont-HeavyDEMO.otf");
+}
+
+#logo {
+    width: 50px;
+}
+
+.header {
+    text-align: center;
+    font-family: url(POLICE/Mont-HeavyDEMO.otf);
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+    font-family: "mont";
+}
+
+.navbar {
+
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #000;
+    text-align: center;
+       margin:0 auto; 
+      position: sticky;
+      top: 0;
+      }
+
+.menu{
+
+    display: flex;
+    align-items: center;
+       
+
+    }
+
+.menu li{ 
+    
+    font-family: "mont";
+    list-style: none;
+    padding: 16px;
+    font-family: url("POLICE/Mont-HeavyDEMO.otf");
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ee4d4d;
+    text-decoration: none;
+}
+
+#profil{
+    margin-top: 50px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+
+#insta{
+
+  width: 30px;
+
+}
+
+h2{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: mont;
+    color:#000;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.a-propos{
+
+    margin-top: 50px;
+}
+
+.container1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.image {
+    max-width: 200px; 
+    margin-right: 20px; 
+    height: 300px;
+}
+
+.text {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 700px;
+     
+}
+
+
+h4{
+
+  font-weight: bold;
+  font-size: 40px;
+  font-family: mont;
+  text-align: center;
+  margin-top: 150px;
+
+
+}
+
+
+
+.competence{
+
+    background-color: rgb(221, 219, 219);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.competence img{
+    
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 60px;
+   
+
+  }
+
+
+
+h3 {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: mont;
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+/* FOOTER */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat";
+}
+
+.contact-button {
+  background-color: #fff;
+  font-family: "Montserrat";
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
+  background-color: #ee4d4d;
+  color: white;
+}
+p {
+  user-select: none;
+}
+.contact-button {
+  user-select: none;
+}
+    
+
+
+
+
+
+
+
+
+ 
+ 
