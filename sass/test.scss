@@ -1,0 +1,14 @@
+.nav {
+    text-align: right;
+    &__link {
+      font-size: 15px;
+      padding-left: 30px;
+      &--purple {
+          color: #a5b4fc;     
+              }
+  }
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
